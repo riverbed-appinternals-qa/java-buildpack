@@ -106,10 +106,7 @@ module JavaBuildpack
           .add_environment_variable(RVBD_AGENT_PORT.upcase, get_val_in_cred(RVBD_AGENT_PORT.upcase, credentials[RVBD_AGENT_PORT], RVBD_AGENT_PORT_DEFAULT, true))
           .add_environment_variable(AIX_INSTRUMENT_ALL,1)
           .add_environment_variable(RVBD_AGENT_FILES,1)
-<<<<<<< HEAD
           .add_environment_variable(RVBD_JBP_VERSION,@version)
-=======
->>>>>>> ec838b6037808caaf83172e69282b9b033d8a2a5
       end
 
       def architecture
